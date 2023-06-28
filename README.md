@@ -4,7 +4,7 @@ a Web Application that tracks and manages Web Applications developed by the Prov
 
 # Frontend
 
-This repository contains the frontend code for the XYZ web application. It is built using HTML, CSS, and JavaScript, and utilizes various libraries and frameworks to enhance the user experience.
+This repository contains the frontend code for this web application. It is built using HTML, CSS, and JavaScript, and utilizes various libraries and frameworks to enhance the user experience.
 
 #### Installation
 
