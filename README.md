@@ -1,39 +1,100 @@
 # Viral-Joshi-ecc-dssb-IS21-code-challenge-req101408
 
-This is a simple web application that allows you to manage products using a frontend component and a backend API. The application provides basic CRUD functionality for products.
+a Web Application that tracks and manages Web Applications developed by the Province of BC
 
-Technologies Used
+# Frontend
 
-Frontend: React
-Backend: Node.js with Express
-Database: None (Mock data is used for this implementation)
-HTTP Requests: Axios
-Installation
+This repository contains the frontend code for the XYZ web application. It is built using HTML, CSS, and JavaScript, and utilizes various libraries and frameworks to enhance the user experience.
 
-Clone the repository: git clone <repository-url>
-Navigate to the project directory: cd product-management-app
-Install dependencies:
-Frontend: cd frontend && npm install
-Backend: cd backend && npm install
-Start the frontend and backend servers:
-Frontend: cd frontend && npm start
-Backend: cd backend && npm start
+#### Installation
+
+1. Clone the repository:
+
+### `git clone <repository-url>`
+
+2. Install the dependencies:
+
+### `cd <repository-folder>`
+### `npm install`
 Usage
 
-Frontend
-Access the frontend application at http://localhost:3000 in your web browser.
-The application displays a table with product information.
-You can add a new product by filling out the form at the bottom of the page and clicking "Add Product".
-To edit a product, click the "Edit" button in the corresponding row of the table. Update the fields in the form and click "Save" to save the changes or "Cancel" to discard them.
-To delete a product, click the "Delete" button in the corresponding row of the table.
-Backend API
-The backend API is accessible at http://localhost:5000/api.
-It provides the following endpoints:
-GET /api/products: Retrieves all products.
-POST /api/products: Adds a new product.
-PUT /api/products/:productId: Updates a product with the specified productId.
-DELETE /api/products/:productId: Deletes a product with the specified productId.
-The API returns the appropriate HTTP response codes for each request.
+3. Start the development server:
+
+### `npm start`
+
+Open your web browser and navigate to http://localhost:3000 to access the application.
+Interact with the different features and functionalities of the application.
+Features
+
+The frontend of this web application provides the following features:
+
+Product listing and details.
+Add, edit and delete of products
+
+### Technologies Used
+
+The frontend of the application utilizes the following technologies and frameworks:
+
+#### HTML: The markup language used for structuring the web pages.
+#### CSS: Cascading Style Sheets for styling the web pages.
+#### JavaScript: The programming language for adding interactivity and logic.
+#### React: A JavaScript library for building user interfaces.
+#### Redux: A predictable state container for managing application state.
+#### Axios: A JavaScript library for making HTTP requests.
+#### React Router: A library for routing and navigating between different components.
+#### Bootstrap: A popular CSS framework for building responsive web applications.
+#### Webpack: A module bundler for bundling and optimizing the frontend code.
+
+
+# Swagger API Documentation for Express Application
+
+This repository contains an Express application that integrates Swagger API documentation. The Swagger UI allows developers to explore and interact with the API endpoints easily. It provides detailed information about the available routes, request/response schemas, and sample requests.
+
+Installation
+
+1. Clone the repository:
+
+### `git clone <repository-url>`
+
+2. Install the dependencies:
+
+### `cd <repository-folder>`
+### `npm install`
+
+3. Start the server:
+
+### `npm start`
+
+Open your web browser and navigate to http://localhost:3000/api-docs to access the Swagger UI.
+Use the Swagger UI to explore the available API endpoints, request/response schemas, and make sample requests.
+
+## API Endpoints
+
+The Express application provides the following API endpoints:
+
+#### GET /api/health: Health endpoint to check the server status.
+#### GET /api/products: Retrieve all products.
+#### GET /api/products/{productId}: Get a specific product by ID.
+#### POST /api/products: Create a new product.
+#### PUT /api/products/{productId}: Update a product by ID.
+#### DELETE /api/products/{productId}: Delete a product by ID.
+
+## API Documentation
+
+The API documentation is generated using Swagger. The Swagger UI provides an interactive interface to explore and test the API endpoints. It also describes the request/response schemas and provides sample requests.
+
+To access the API documentation, start the server and navigate to http://localhost:3000/api-docs in your web browser.
+
+## Dependencies
+
+The following dependencies are used in this project:
+
+##### express: Fast, unopinionated, minimalist web framework for Node.js.
+##### body-parser: Node.js body parsing middleware.
+##### swagger-jsdoc: Swagger JSDoc allows you to write OpenAPI specs using JSDoc comments.
+##### swagger-ui-express: Middleware to serve Swagger UI generated from the Swagger JSDoc.
+##### cors: CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
+
 
 # Getting Started with Create React App
 
